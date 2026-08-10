@@ -19,7 +19,7 @@ RUN \
 	git checkout v4.9.5 \
 	&& make
 
-FROM registry.access.redhat.com/ubi9/ubi:1785807647
+FROM registry.access.redhat.com/ubi9/ubi:1785906808
 
 ARG TESTSSL_VERSION=v3.2.4
 # hadolint ignore=DL3041
